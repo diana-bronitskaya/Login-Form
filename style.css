@@ -34,12 +34,15 @@
             align-items: center;
             justify-content: center;
         }
+        input::placeholder {
+            color: rgb(255, 255, 255, 0.8);
+          }
         .form-group input {
             height: 30px;
             border-radius: 10px;
             background-color: rgba(0, 0, 0, 0.2);
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.82);
-            color: rgba(255, 255, 255, 0.6);
+            color: white;
             border: none;
             outline: 0px;
             text-indent: 12px;
